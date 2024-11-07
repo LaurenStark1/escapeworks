@@ -1,0 +1,56 @@
+<DOCTYPE! html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Feedback Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 id="title">Feedback Form</h1>
+  <p id="description">Thank you for helping us improve our services</p>
+<form id="survey-form">
+  <fieldset>
+    <label id="name-label"> Name <input id="name" type="text" required placeholder="Enter Your Name">
+  </label>
+    <label id="email-label"> E-mail <input id="email" type="email" required placeholder="Enter Your Email"></label>
+    <label id="number-label">Age <input id="number" type="number" min="13" max="120" placeholder="Enter your Age"</label>
+    </fieldset>
+    <fieldset>
+      <legend> Gender</legend>
+    <label for="male"><input type="radio" id="male" name="gender" class="inline" value="male" checked> Male</label>
+    <label for="female"><input type="radio" id="female" name="gender" class="inline" value="male"> Female</label>
+    </fieldset>
+
+    <fieldset>
+    <label for="dropdown">How did you hear about us?
+<select id="dropdown">
+  <option value="">(select one)</option>
+  <option value="1">Social Media</option>
+  <option value="2">Forums</option>
+  <option value="3">Google Ads</option>
+  <option value="4">Friends</option>
+  <option value="5">Other</option>
+      </select>
+    </label>
+  </fieldset>
+
+  <fieldset>
+    <legend>What would you like to improve?</legend>
+    <p class="check"><input id="delivery-speed" type="checkbox" name="improvement" value="delivery-speed"><label for="delivery-speed">Delivery Speed</label></p>
+    <p class="check"><input id="customer-service" type="checkbox" name="improvement" value="customer-service"><label for="customer-service">Customer Service</label></p>
+    <p class="check"><input id="pricing" type="checkbox" name="improvement" value="pricing"><label for="pricing">Pricing</label></p>
+    <p class="check"><input id="shipping-options" type="checkbox" name="improvement" value="shipping-options"><label for="shipping-options">Shipping Options</label></p>
+   <p class="check"> <input id="goods-quality" type="checkbox" name="improvement" value="goods-quality"><label for="goods-quality">Goods quality</label></p>
+   <p class="check"> <input id="other" type="checkbox" name="improvement" value="other"><label for="other">Other (describe)<textarea id="other1" name="other1" rows="3" cols="30" placeholder="Decribe what you would like to improve."></textarea></label></p>
+  </fieldset>
+
+  <fieldset>
+    <legend>Any other comments or suggestions?</legend>
+    <label for="comments"> <textarea id="comments" name="comments" rows="3" cols="30" placeholder="Let us know if there's anything more you would like to add."> </textarea>
+    </label>
+  </fieldset>
+  <input id="submit" type="submit" value="Submit" />
+</form>
+</body>
+
+</html>
