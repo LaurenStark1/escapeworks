@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch Mystery Box</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header id="header">
+      <div id="logo">
+       <img id="header-img" img src="https://th.bing.com/th/id/R.81e94220dde8f1b54678b6b027c2c34d?rik=eNZYDXjbT7YzPQ&pid=ImgRaw&r=0">
+       <h1 class="toph1">Switch Mystery Box</h1>
+       </div>
+       <div id="navig">
+       <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#Features">Features</a></li>
+          <li><a class="nav-link" href="#How-it-works">How it works</a></li>
+          <li><a class="nav-link" href="#Pricing">Pricing</a></li>
+        </ul>  
+       </nav>
+    </header>
+
+  <main class="content">
+    <section id="top">
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input name="email" id="email" type="email" placeholder="Enter your e-mail" required>
+        <input name="submit" id="submit" type="submit" value="Get Started" class="button">
+      </form>
+    </section>
+    <section class="main-section" id="Features" role="features" aria-labbeledby="features">
+      <div class="premium-materials"><img src="https://th.bing.com/th/id/R.85497e6c34c6d667eadc52088ffa1199?rik=Wy%2bPRjDRwZwsyw&pid=ImgRaw&r=0" class="icon">
+      <div class="divide">
+      <h1 class="features-h1">Premium Materials</h1>
+      <p>All of the items in our Mystery Boxes are made of the best quality materials by verified sources. This will increase the longetivity of your purchase.</p>
+ </div>
+      </div>
+<div class="space"></div>
+      <div class="fast-shipping">
+        <img src="https://th.bing.com/th/id/R.85497e6c34c6d667eadc52088ffa1199?rik=Wy%2bPRjDRwZwsyw&pid=ImgRaw&r=0" class="icon">
+        <div class="divide">
+      <h1 class="features-h1">Fast Shipping</h1>
+      <p>We make sure you receive your Mystery Box as soon as possible by mailing on the next office day.</p>
+      </div>
+       </div>
+<div class="space"></div>
+      <div class="quality-assurance">
+      <img src="https://th.bing.com/th/id/R.85497e6c34c6d667eadc52088ffa1199?rik=Wy%2bPRjDRwZwsyw&pid=ImgRaw&r=0" class="icon">
+      <div class="divide">
+      <h1 class="features-h1">Quality Assurance</h1>
+      <p>For every purchase you make, we will ensure there are no damages or faults and we provide free returns if the state of items doesn't match perfection.</p>
+       </div>
+      </div>
+    </section>
+
+    <section class="main-section" id="How-it-works" role="how-it-works" aria-labbeledby="how-it-works">
+      <div class="iframe-container">
+      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/c0i88t0Kacs?si=wZGLnxaPWESgFlRn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </section>
+
+<div id="pricingpar">
+    <section class="main-section" id="Pricing" role="pricing" aria-labbeledby="pricing">
+      <div class="product" id="mini-box">
+        <div class="product-header">
+          <h1 class="product-h1">Mini Mystery Box</h1>
+        </div>
+        <h2 class="margin">$30</h2>
+          <p>A Poster or a Keychain</p>
+          <p>Stickers</p>
+          <p>T-shirt</p>
+          <p>Small Action Figure</p>
+          <p>3 More Extra Items</p>
+          <div id="spacing"></div>
+          <form id="form2" action=""><input name="select" id="select" type="submit" value="select" class="button"> </form>
+      </div>
+      <div class="product" id="classic-box">
+        <div class="product-header">
+          <h1 class="product-h1">Classic Mystery Box</h1>
+        </div>
+        <h2>$80</h2>
+        <p>Stickers and a Poster</p>
+          <p>T-shirt</p>
+          <p>Action Figure</p>
+          <p>Nintendo Switch Case</p>
+          <p>Nintendo Store Discount Code</p>
+          <p>Nintendo Switch Game</p>
+          <p>5 More Extra Items</p>
+          <form id="form2" action=""><input name="select" id="select" type="submit" value="select" class="button"> </form>
+      </div>
+      <div class="product" id="maxi-box">
+        <div class="product-header">
+          <h1 class="product-h1">Maxi Mystery Box</h1>
+        </div>
+        <h2>$140</h2>
+         <p>Stickers and a Poster</p>
+          <p>T-shirt</p>
+          <p>Action Figure</p>
+          <p>Nintendo Switch Accesories 2x</p>
+          <p>Nintendo Switch Game 2x</p>
+          <p>Nintendo Store Discount Code</p>
+          <p>8 More Extra Items</p>
+          <form id="form2" action=""><input name="select" id="select" type="submit" value="select" class="button"> </form>
+      </div>
+    </section>
+    </div>
+</main>
+
+  
+  <footer>
+    <ul>
+      <li><a href="#">Privacy</a></li>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <span>Copyright 2024, Switch Mystery Box</span>
+  </footer>
+  </body>
+</html>
