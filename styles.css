@@ -293,3 +293,60 @@ nav a {
 		margin-top: -25px;
 	}
 }
+
+@media (max-width: 600px) { 
+	#intro h1 { font-size: 30px; 
+		margin-left: 20px; 
+		/*margin-top: 40px; */
+	} 
+	
+	#intro p:first-of-type { 
+		font-size: 20px; 
+		margin-left: 20px; 
+		margin-top: -20px;
+	} 
+	
+	#intro p:last-of-type {
+	font-size: 15px;
+	opacity: 30%;
+	margin-left: 50px;
+	margin-top: -25px;
+}
+	
+	#contact { 
+		margin-right: 
+			50px; 
+		text-align: right; 
+	}
+	
+	#background {
+		margin-left: -180px;
+		background-size: 100% 30vh;
+		width: 90%;
+	}
+
+	#headline {
+		margin-top: -300px;
+	}
+	
+	#navbar { 
+		width: 150px; 
+		height: 100px;
+		display: block;
+  align: center;
+		opacity: 80%;
+	} 
+	
+	nav ul { 
+		display: block;
+		text-align: center
+	} 
+	
+	#contact p {
+		font-size: 12px;
+	}
+	
+	#contact p:first-of-type {
+		margin-top: -25px;
+	}
+}
