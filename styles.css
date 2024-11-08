@@ -250,7 +250,8 @@ nav a {
 }
 	
 	#contact { 
-		margin-right: 50px; 
+		margin-right: 
+			50px; 
 		text-align: right; 
 	}
 	
@@ -261,5 +262,25 @@ nav a {
 
 	#headline {
 		margin-top: -250px;
+	}
+	
+	#navbar { 
+		width: 150px; 
+		height: 100px;
+		display: block;
+  align: center;
+	} 
+	
+	nav ul { 
+		display: block;
+		text-align: center
+	} 
+	
+	#contact p {
+		font-size: 12px;
+	}
+	
+	#contact p:first-of-type {
+		margin-top: -25px;
 	}
 }
