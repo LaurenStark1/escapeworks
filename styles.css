@@ -165,7 +165,7 @@ nav a {
 #contact {
 	line-height: 10px;
 	text-align: right;
-	margin-right: 200px;
+	margin-right: 50px;
 	height: 200px;
 	color: var(--color2);
 }
@@ -176,7 +176,7 @@ nav a {
 }
 
 
-@media (max-width: 960px) { 
+@media (min-width: 481px) and (max-width: 1000px) { 
 	#navbar { 
 		width: 150px; 
 		height: 100px;
@@ -230,20 +230,20 @@ nav a {
 }
 }
 
-@media screen and (max-width: 480px) { 
-	#intro h1 { font-size: 40px; 
+@media (max-width: 480px) { 
+	#intro h1 { font-size: 30px; 
 		margin-left: 20px; 
-		margin-top: 35px; 
+		margin-top: 40px; 
 	} 
 	
 	#intro p:first-of-type { 
-		font-size: 30px; 
+		font-size: 20px; 
 		margin-left: 20px; 
 		margin-top: -20px;
 	} 
 	
 	#intro p:last-of-type {
-	font-size: 20px;
+	font-size: 15px;
 	opacity: 30%;
 	margin-left: 50px;
 	margin-top: -25px;
@@ -251,16 +251,16 @@ nav a {
 	
 	#contact { 
 		margin-right: 
-			10px; 
-		text-align: center; 
+			50px; 
+		text-align: right; 
 	}
 	
 	#background {
 		margin-left: -100px;
-		background-size: 100% 35vh;
+		background-size: 100% 30vh;
 	}
 
 	#headline {
-		margin-top: -230px;
+		margin-top: -250px;
 	}
 }
