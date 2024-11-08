@@ -92,7 +92,6 @@ nav a {
 	background-image: url("img/header.jpg");
 	background-size: 100% 70vh;
 	background-repeat: no-repeat;
-	background-repeat: no-repeat;
   left: 200px;
   border-radius: 20px 20px 0 0;
   color: var(--color1);
@@ -105,10 +104,14 @@ nav a {
 	padding: 20px;
 }
 
+#intro {
+	margin-top: 25vh;
+}
+
 #intro h1 {
   font-size: 65px;
   margin-left: 50px;
-  margin-top: 150px;
+  /*margin-top: 150px;*/
 }
 
 #intro p:first-of-type {
@@ -129,7 +132,7 @@ nav a {
 	text-align: center;
 	height: 50px;
 	font-size: 20px;
-	margin-top: 5px;
+	margin-top: -30px;
 	background-color: var(--color1);
 	color: var(--color2);
 }
@@ -176,7 +179,7 @@ nav a {
 }
 
 
-@media(max-width: 1000px) { 
+@media (max-width: 1000px) { 
 	#navbar { 
 		width: 150px; 
 		height: 100px;
@@ -198,9 +201,13 @@ nav a {
 		background-size: 100% 50vh;
 	}
 	
+	#intro {
+		margin-top: 50px;
+	}
+	
 	#intro h1 { font-size: 50px; 
 		margin-left: 20px; 
-		margin-top: 70px; 
+		/*margin-top: 70px; */
 	} 
 	
 	#intro p:first-of-type { 
@@ -233,7 +240,7 @@ nav a {
 @media (max-width: 480px) { 
 	#intro h1 { font-size: 30px; 
 		margin-left: 20px; 
-		margin-top: 40px; 
+		/*margin-top: 40px; */
 	} 
 	
 	#intro p:first-of-type { 
@@ -255,7 +262,7 @@ nav a {
 		text-align: right; 
 	}
 	
-		#background {
+	#background {
 		margin-left: -180px;
 		background-size: 100% 30vh;
 		width: 90%;
