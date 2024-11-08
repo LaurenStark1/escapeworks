@@ -255,13 +255,14 @@ nav a {
 		text-align: right; 
 	}
 	
-	#background {
-		margin-left: -100px;
+		#background {
+		margin-left: -180px;
 		background-size: 100% 30vh;
+		width: 90%;
 	}
 
 	#headline {
-		margin-top: -250px;
+		margin-top: -300px;
 	}
 	
 	#navbar { 
