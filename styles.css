@@ -237,7 +237,7 @@ nav a {
 }
 }
 
-@media only screen and (max-width: 768px) and (orientation: landscape) { 
+@media only screen and (max-width: 480px) { 
 	#intro h1 { font-size: 30px; 
 		margin-left: 20px; 
 		/*margin-top: 40px; */
@@ -269,7 +269,8 @@ nav a {
 	}
 
 	#headline {
-		margin-top: -300px;
+		margin-top: -350px;
+		border: 5px solid transparent;
 	}
 	
 	#navbar { 
@@ -294,7 +295,7 @@ nav a {
 	}
 }
 
-@media (max-width: 600px) { 
+@media (min-width: 451px) and (max-width: 600px) { 
 	#intro h1 { font-size: 30px; 
 		margin-left: 20px; 
 		/*margin-top: 40px; */
