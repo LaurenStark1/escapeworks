@@ -237,7 +237,7 @@ nav a {
 }
 }
 
-@media (max-width: 480px) { 
+@media only screen and (max-width: 480px) { 
 	#intro h1 { font-size: 30px; 
 		margin-left: 20px; 
 		/*margin-top: 40px; */
@@ -269,7 +269,7 @@ nav a {
 	}
 
 	#headline {
-		margin-top: -250px;
+		margin-top: -300px;
 	}
 	
 	#navbar { 
