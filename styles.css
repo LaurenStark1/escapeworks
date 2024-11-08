@@ -230,7 +230,7 @@ nav a {
 }
 }
 
-@media only screen and (max-width: 480px) { 
+@media only screen and (max-width: 600px) { 
 	#intro h1 { font-size: 40px; 
 		margin-left: 20px; 
 		margin-top: 35px; 
